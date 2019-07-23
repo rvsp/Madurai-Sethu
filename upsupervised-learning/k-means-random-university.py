@@ -26,7 +26,7 @@ df_xy.plot(x="X",y = "Y",c=model1.labels_,kind="scatter",s=10,cmap=plt.cm.coolwa
 
 
 # Kmeans on University Data set 
-Univ = pd.read_csv("/home/venkat/Desktop/MDU-SIT/ignores/universities.csv")
+Univ = pd.read_csv("https://raw.githubusercontent.com/trainervenkat/MDUSIT/master/datasets/universities.csv")
 # Normalization function 
 def norm_func(i):
     x = (i-i.min())	/	(i.max()	-	i.min())
